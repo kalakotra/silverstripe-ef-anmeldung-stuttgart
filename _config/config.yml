@@ -1,0 +1,11 @@
+---
+Name: eform-anmeldung-stuttgart
+---
+# Signature positions (mm from the top-left page corner; negative page = counted from the end):
+#   main      - page 3 "Unterschrift der/des Meldepflichtigen" (PDFMultiFormPage.SignaturePositionX/Y override X/Y)
+#   amtsblatt - page 4 "Unterschrift", only stamped when the Amtsblatt question was answered
+#
+# Kalakotra\EFormAnmeldungStuttgart\Model\Submission:
+#   signature_positions:
+#     main: { page: -2, x: 155.0, y: 276.0, width: 35.0 }
+#     amtsblatt: { page: -1, x: 20.0, y: 187.0, width: 35.0 }
